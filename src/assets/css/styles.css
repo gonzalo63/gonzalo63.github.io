@@ -1,0 +1,120 @@
+/* Font used  'Lato' de GoogleFonts https://fonts.google.com/?category=Sans+Serif&selection.family=Lato&query=lat */
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+/* General */
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+
+header {
+    display: block;
+    background:rgb(130, 217, 243);
+}
+
+#headerContainer {
+    width: 100%;
+    
+}
+
+#logo {
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+#logo .logoImage {
+    width: 48%;
+    padding-left: 2%;
+}
+
+#phone {
+    width: 49%;
+    padding-left: 20px;
+    margin-top: 5%;
+    float: left;
+}
+
+#phone .phoneImage {
+    width: 6%;
+    margin-left: 32%;
+}
+
+#phone .phoneNumber {
+    font-size: 3vw;
+    padding-left: 7%;
+    float: none;
+}
+
+
+.main-div-footer {
+    
+    background:rgb(130, 217, 243);
+    width: 100%;
+    height: 100px;
+    margin-top:  0px;
+    margin-bottom: 0px;
+    padding: 0px, 0px, 0px, 0px;
+}
+.div-footer {
+    width: 33%;
+    float: left;
+}
+#copyrigth {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#dir {
+    text-align: right;
+    font-size: 2vw;
+}
+
+/* landing Component */
+
+#content {
+    position: relative;
+}
+
+
+.image1 {
+    opacity: 30%;
+    width: 100%;
+}
+
+
+
+
+#description {
+    position: absolute;
+    top: 5%;
+    left: 4.5%;
+    font-family: 'Lato-Black', sans-serif;
+    font-size: 3vw;
+}
+
+#formQuota {
+    position: absolute;
+    top: 5%;
+    right: 4.5%;
+    width: 30%;
+}
